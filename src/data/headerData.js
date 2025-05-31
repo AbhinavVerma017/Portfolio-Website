@@ -1,9 +1,10 @@
 import resume from '../assets/pdf/resume.pdf'
+import personalPhoto from '../assets/png/photo.png'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    name: 'Abhinav Verma',
+    title: "Software Developer",
+    desciption:"I'm a passionate Software Developer with a love for building clean, efficient, and scalable web applications. I thrive on turning complex problems into elegant solutions, and I’m always exploring new technologies to grow and improve. ",
+    image: personalPhoto,
     resumePdf: resume
 }

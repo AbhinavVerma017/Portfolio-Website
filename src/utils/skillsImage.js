@@ -72,6 +72,20 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
+import gitHub  from '../assets/svg/skills/github-icon-1.svg'
+import gitLab  from '../assets/svg/skills/gitlab.svg'
+import node from '../assets/svg/skills/nodejs-icon.svg'
+import next from '../assets/svg/skills/next-js.svg'
+import linux from '../assets/svg/skills/linux-tux-2.svg'
+import material from '../assets/svg/skills/material-ui-1.svg'
+import redux from '../assets/svg/skills/redux.svg'
+import express from '../assets/svg/skills/expressjs-ar21.svg'
+import vsCode from '../assets/svg/skills/visual-studio-code-1.svg'
+import sandbox from '../assets/svg/skills/Code-Sandbox-Logo--Streamline-Logos-Block.svg'
+import codeigniter from '../assets/svg/skills/codeigniter.svg'
+import rabbitmq from '../assets/svg/skills/RabbitMQ.svg'
+
+
 
 import canva from '../assets/svg/skills/canva.svg'
 
@@ -101,8 +115,8 @@ export const skillsImage = (skill) => {
             return javascript;
         case 'next js':
             return nextJS;
-        case 'nuxt js':
-            return nuxtJS;
+        case 'node js':
+            return node;
         case 'react':
             return react;
         case 'svelte':
@@ -121,8 +135,6 @@ export const skillsImage = (skill) => {
             return coffeescript;
         case 'memsql':
             return memsql;
-        case 'mongodb':
-            return mongoDB;
         case 'mysql':
             return mysql;
         case 'postgresql':
@@ -221,12 +233,32 @@ export const skillsImage = (skill) => {
             return picsart;
         case 'sketch':
             return sketch;
-        case 'unity':
-            return unity;
+        case 'redux':
+            return redux;
         case 'wolframalpha':
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'github':
+            return gitHub;
+        case 'gitlab':
+            return gitLab;  
+        case 'express js':
+            return express; 
+        case 'mongo db':
+            return mongoDB;   
+        case 'vs code':
+            return vsCode;  
+        case 'material ui':
+            return material;   
+        case 'linux':
+            return linux;  
+        case 'sandbox':
+            return sandbox;    
+        case 'codeigniter':
+            return codeigniter;  
+        case 'rabbitmq':
+            return rabbitmq;                         
         default:
             break;
     }
