@@ -156,6 +156,7 @@ function Contacts() {
                     setEmail('');
                     setMessage('');
                     setOpen(false);
+                    setTimeout(() => setSuccess(false), 2000);
                 })
                 .catch((err) => {
                     console.error('FAILED...', err);
