@@ -9,6 +9,7 @@ import eight from '../assets/svg/projects/eight.svg'
 import fifteen from '../assets/svg/projects/fifteen.svg'
 import sixteen from '../assets/svg/projects/sisxteen.svg'
 import seventeen from '../assets/svg/projects/seventeen.svg'
+import nineteen from '../assets/svg/projects/nineteen.svg'
 
 
 
@@ -56,7 +57,7 @@ export const projectsData = [
         tags: ['React js , Email JS'],
         code: 'https://github.com/AbhinavVerma017/Portfolio-Website',
         demo: 'https://portfolio-website-six-coral.vercel.app/',
-        image: seventeen
+        image:  nineteen
     }
 ]
 
