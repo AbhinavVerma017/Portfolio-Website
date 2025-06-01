@@ -26,9 +26,9 @@ export const projectsData = [
         id: 2,
         projectName: 'Netflix Clone',
         projectDesc: 'A front-end clone of Netflix built from scratch using React JS. App uses Firebase for user authentication and Firestore Database .',
-        tags: ['React', 'CSS' , 'Firebase'],
+        tags: ['React', 'Redux', 'CSS' , 'Firebase'],
         code: 'https://github.com/AbhinavVerma017/netflix_clone',
-        demo: '',
+        demo: 'https://netflix-clone-zeta-sand.vercel.app/',
         image: sixteen
     },
     {
@@ -47,6 +47,15 @@ export const projectsData = [
         tags: ['PHP'],
         code: 'https://github.com/AbhinavVerma017/News_Blog-Application',
         demo: '',
+        image: seventeen
+    },
+    {
+        id: 5,
+        projectName: 'Portfloio Website',
+        projectDesc: 'This is a personal portfolio website built using React. It showcases my projects, skills, and experience in a clean and modern design. It serves as my professional online presence.',
+        tags: ['React js , Email JS'],
+        code: 'https://github.com/AbhinavVerma017/Portfolio-Website',
+        demo: 'https://portfolio-website-six-coral.vercel.app/',
         image: seventeen
     }
 ]
